@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos</title>
+</head>
+<body>
+<script>
+passport.use(
+    new TelegramStrategy({
+        clientID: '123-456-789',
+        clientSecret: 'shhh-its-a-secret',
+        callbackURL: 'https://www.example.net/auth/telegram/callback'
+    },
+    function(accessToken, refreshToken, profile, done) {
+        User.findOrCreate(..., function (err, user) {
+            done(err, user);
+        });
+    }
+ ));
+ app.get('/auth/telegram', 
+    passport.authenticate('telegram'),
+    function(req, res) {
+        // The request will be redirected to telepass.me for authentication,
+        // so this function will not be called.
+    }
+);
+
+app.get('/auth/telegram/callback', 
+    passport.authenticate('telegram', { failureRedirect: '/login' }),
+    function(req, res) {
+        // Successful authentication, redirect home.
+        res.redirect('/');
+    }
+);
+</script>
+</body>
+</html>
+ 
+ 
