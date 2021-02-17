@@ -62,7 +62,7 @@ $conteudo = ' <div class="content-wrapper">
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-red">
+          <div class="small-box bg-green">
             <div class="inner">
               <h3>65</h3>
 
