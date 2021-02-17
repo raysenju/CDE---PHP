@@ -3,11 +3,11 @@ $conteudo = ' <div class="content-wrapper">
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
+        <small>Painel de Controle</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Início </a></li>
+        <li class="active">Tela Principal</li>
       </ol>
     </section>
 
@@ -21,7 +21,7 @@ $conteudo = ' <div class="content-wrapper">
             <div class="inner">
               <h3>150</h3>
 
-              <p>New Orders</p>
+              <p> Novas ordens </p>
             </div>
             <div class="icon">
               <i class="ion ion-bag"></i>
@@ -51,7 +51,7 @@ $conteudo = ' <div class="content-wrapper">
             <div class="inner">
               <h3>44</h3>
 
-              <p>User Registrations</p>
+              <p>User Registros ofícios - teste</p>
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
@@ -98,7 +98,7 @@ $conteudo = ' <div class="content-wrapper">
           <!-- /.nav-tabs-custom -->
 
           <!-- Chat box -->
-          <div class="box box-success">
+          <div class="box box-fail">
             <div class="box-header">
               <i class="fa fa-comments-o"></i>
 
@@ -106,7 +106,7 @@ $conteudo = ' <div class="content-wrapper">
 
               <div class="box-tools pull-right" data-toggle="tooltip" title="Status">
                 <div class="btn-group" data-toggle="btn-toggle">
-                  <button type="button" class="btn btn-default btn-sm active"><i class="fa fa-square text-green"></i>
+                  <button type="button" class="btn btn-default btn-sm active"><i class="fa fa-square text-blue"></i>
                   </button>
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
                 </div>
@@ -134,7 +134,7 @@ $conteudo = ' <div class="content-wrapper">
                   </p>
 
                   <div class="pull-right">
-                    <button type="button" class="btn btn-primary btn-sm btn-flat">Open</button>
+                    <button type="button" class="btn-btn-primary btn-sm btn-flat">Open</button>
                   </div>
                 </div>
                 <!-- /.attachment -->
@@ -145,7 +145,7 @@ $conteudo = ' <div class="content-wrapper">
                 <img src="dist/img/user3-128x128.jpg" alt="user image" class="offline">
 
                 <p class="message">
-                  <a href="#" class="name">
+                  <a href="#" class="senha">
                     <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
                     Alexander Pierce
                   </a>
